@@ -37,6 +37,8 @@ var startGame = function () {
 
     //reset 
     currentScore = 0;
+    winCount = 0;
+    lossCount = 0;
 
     targetScore = getRandom(19, 120);
 
@@ -47,6 +49,7 @@ var startGame = function () {
 
     $("#targScore").html(targetScore)
     $("#curScore").html(currentScore)
+
 }
 
 //change crystal values
